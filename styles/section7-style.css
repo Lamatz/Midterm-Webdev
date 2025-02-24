@@ -1,5 +1,11 @@
 
+/* the sections might look weird xl to lg screens (1200 - 992) because the text
+becomes close to the border but you can adjust that by simple styling of 
+the padding and margin */
+/* I Recommend using Bootstrap 5 utilities i.e. px-xxl-0 px-5 mx-xxl-0 mx-5 (no margin and padding above 1400px screens and by default it has 5rem in both padding and margin) - this will break the text so that it won't be too close to the border*/
 
+
+/* Could also experiment by changing the size of the text at different screens */
 
 .section7 a{
   background-color: white; 
