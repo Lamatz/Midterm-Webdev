@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+
 #homebanner {
   font-size: 50px;
   font-weight: 700;
@@ -6,6 +9,23 @@
 .homebanner-btn {
 margin-top: 50px;
 display: inline-block;
+}
+
+
+.profile-section{
+
+  height: 80px;
+}
+
+.section0{
+  background-color: #F6DBA0;
+
+}
+
+.profile-name{
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 
@@ -34,9 +54,28 @@ display: inline-block;
   
   }
 
+  #homebanner{
+    max-width: 624px;
+  }
 
-  @media  (max-width: 576px) {
+  #homebanner img{
+    height: 75px;
+    width: 198px;
+  }
+
+  @media  (max-width: 576px) and (min-width: 767px) {
     .section2 h2{
       font-size: 24px;
+    }
+  }
+
+  @media  (max-width: 768px) {
+    #homebanner{
+      font-size: 32px;
+    }
+
+    #homebanner img{
+      height: 48px;
+      width: 127px;
     }
   }
