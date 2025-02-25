@@ -2,11 +2,15 @@
 /* Check to see if it is working properly it bugs at times especially in inspector view
 Double check to see if there are any errors */
 
+/* responsiveness could be better */
+
 
 #home-button button{
   background-color: #017377;
   border: none;
 }
+
+
 
 #home-button i{
   background-color: #fff;

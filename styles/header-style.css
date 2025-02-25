@@ -10,7 +10,7 @@
 
 
   nav{
-    height: 72px !important;
+    /* height: 72px !important; */
   }
 
 #english-icon {
@@ -102,7 +102,9 @@
 
 
 
-
+.hamburger-office{
+  display: none !important;
+}
 
 
 
@@ -145,7 +147,9 @@
 }
 
 
+@media (max-width: 991px){
 
+}
 
 @media (max-width: 991px) and (min-width: 571px){
   .navbar-collapse {
@@ -187,19 +191,27 @@
     margin: 0 30px;
   }
 
+  #my-cart img{
+    width: 20px;
+    height: 20px;
+  }
+
   #cart-badge::after{
     width: 17px;
     height: 17px;
     font-size: 10px;
   }
+
+  .hamburger-office{
+    display: block !important;
+  }
+
+  
 }
 
 
 @media screen and (max-width: 570px){
-  #my-cart img{
-    width: 20px;
-    height: 20px;
-  }
+
 
   #my-english img{
     width: 18px;

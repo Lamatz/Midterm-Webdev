@@ -3,7 +3,7 @@
 
 #homebanner {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 600 !important;
   }
   
 .homebanner-btn {
@@ -64,6 +64,26 @@ display: inline-block;
   }
 
 
+  .section1 a{
+    background-color: white; 
+    color: #007377; 
+    font-weight: bold; 
+    font-family: 'Manrope', sans-serif; 
+    border: none; 
+    white-space: nowrap;
+  }
+  
+  .section1 i{
+    border: 0px black solid; 
+    border-radius: 50%; 
+    background-color: #007377;
+    color:white; 
+    width: 20px; 
+    height: 20px; 
+    font-size: 16px;
+  }
+
+
 
 
 
@@ -80,13 +100,15 @@ display: inline-block;
     .section2 h2{
       font-size: 24px;
     }
-  }
 
-  @media (max-width: 576px){
     .right-nav {
       position: absolute;
-      right: 15px; /* Adjust based on navbar padding */
+      right: 15px; 
       top: 50%;
       transform: translateY(-50%);
     }
+  }
+
+  @media (max-width: 576px){
+
   }

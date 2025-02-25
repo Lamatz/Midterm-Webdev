@@ -700,57 +700,70 @@ width: 100%;
 				<a class="navbar-brand me-auto" href="/">
 					<img src="icons/logo.svg" alt="Brand Logo" width="158" height="46">
 				</a>
-		
+					
 				
 		
 				<!-- Collapsible Content -->
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<!-- Main Navigation -->
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0" id="main-Nav">
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="main-Nav">
 						<li class="nav-item"><a class="nav-link active" href="">Mission</a></li>
 						<li class="nav-item"><a class="nav-link" href="">Lifeline</a></li>
 						<li class="nav-item"><a class="nav-link" href="">Nutrition</a></li>
 						<li class="nav-item"><a class="nav-link text-truncate" href="">Free By Referral</a></li>
 						<li class="nav-item"><a class="nav-link" href="">Company</a></li>
 						<li class="nav-item"><a class="nav-link text-truncate" href="">Public Relations</a></li>
+
+						<li class="nav-item">
+							<a href="#" id="my-office" class="nav-link hamburger-office" target="_blank" rel="noopener">
+								<img src="icons/person.svg" alt="">
+								My Office
+							</a>
+						</li>
+
 					</ul>
 				</div>
 
-				<!-- Right Navigation (Desktop) -->
-				 <!--- added notif badge at the cart-->
-				<div class="d-flex align-items-center right-nav pe-sm-3">
 
-					<a href="#" id="my-cart" class="flex-shrink-0 pb-2" target="_blank" rel="noopener">
-						<div id="cart-badge">
-						<img src="icons/cart.svg" alt="Cart">
-						</div>
-					</a>
+					<!-- Right Navigation (Desktop) Always Visible-->
+					<div>
+						<div class="d-flex align-items-center right-nav pe-sm-3 ">
 	
-					<a href="#" id="my-office" class="flex-shrink-0" target="_blank" rel="noopener">
-						<img src="icons/person.svg" alt="">
-						My Office
-					</a>
-
-					<a href="#" id="my-english" class="flex-shrink-0" target="_blank" rel="noopener">
-						<img src="icons/globe.svg" alt="">
-						<div class="dropdown me-3 " id="english-icon">
-							<a class="text-white dropdown-toggle text-decoration-none" href="#" role="button" 
-								data-bs-toggle="dropdown" aria-expanded="false">
-								English
+							<a href="#" id="my-cart" class="pb-md-2" target="_blank" rel="noopener">
+								<div id="cart-badge">
+								<img src="icons/cart.svg" alt="Cart">
+								</div>
 							</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="/">中文</a></li>
-							</ul>
-						</div> 
-					</a>
-				</div>
+			
+							<a href="#" id="my-office" class="" target="_blank" rel="noopener">
+								<img src="icons/person.svg" alt="">
+								My Office
+							</a>
+	
+							<a href="#" id="my-english" class="" target="_blank" rel="noopener">
+								<img src="icons/globe.svg" alt="">
+								<div class="dropdown me-3 " id="english-icon">
+									<a class="text-white dropdown-toggle text-decoration-none" href="#" role="button" 
+										data-bs-toggle="dropdown" aria-expanded="false">
+										English
+									</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="/">中文</a></li>
+									</ul>
+								</div> 
+							</a>
+						</div>
+					</div>
+
+
 			</div>
 		</nav>
 
-		<!--- Profile section- -->
 
-<section class="section0 mt-5 pt-4 px-5">
-	<div class="profile-section d-flex justify-content-between align-items-center px-3 ">
+<!--- Profile section- -->
+
+<section class="section0 mt-5 pt-4 px-sm-5 px-3">
+	<div class="profile-section d-flex justify-content-between align-items-center px-sm-3 ">
 		<div class="d-flex align-items-center">
 			<img src="images/Ellipse.png" alt="Amanda Jones" class="profile-img">
 			<span class="profile-name manrope ps-3">Amanda Jones</span>
@@ -780,23 +793,15 @@ width: 100%;
 			<div style="z-index:2" class="align-self-center text-center text-light col-md-8">
 				<div class="lc-block container d-flex align-items-center justify-content-center flex-column">
 					
-						<h1 id="homebanner" style="font-family:Poppins">
+						<h1 id="homebanner" class="container" style="font-family:Poppins">
 							<img style="margin-top: -8px;"  src="icons/logo2.svg" alt="logo"> is dedicated to enhancing the quality and longevity of lives.
 						</h1>
 						
 					
-						<a href="#" class="find-btn homebanner-btn mt-5">Find out why <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<rect x="30" width="30" height="30" rx="15" transform="rotate(90 30 0)" fill="#007377"></rect>
-						<g clip-path="url(#clip0_9_1129)">
-							<path d="M19 15.5L13.5098 21L12 19.5562L16.049 15.5L12 11.4437L13.5098 10L19 15.5Z" fill="white"></path>
-						</g>
-						<defs>
-							<clipPath id="clip0_9_1129">
-								<rect width="10" height="10" fill="white" transform="translate(20 10) rotate(90)"></rect>
-							</clipPath>
-						</defs>
-					</svg>
-				</a>
+						<a href="#" class="btn btn-primary rounded-pill px-4 py-2 mt-5 d-inline-flex align-items-center gap-2">
+							Learn more
+							<i class="material-icons d-flex justify-content-center align-items-center">keyboard_arrow_right</i>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -934,7 +939,7 @@ width: 100%;
 		<!-- First Icon -->
     <div class="row">
       <div class="col-md-4 mb-4 mb-md-0 icon-container">
-        <div class="inner-container text-center">
+        <div class="inner-container text-center ">
           <img src="icons/wellness-coaching.svg" alt="icon1" class="img-fluid mb-3">
           <h3 class="potential-title">LifeLine Wellness Coaching</h3>
           <a href="#" class="btn btn-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
