@@ -1,0 +1,38 @@
+#homebanner {
+  font-size: 50px;
+  font-weight: 700;
+  }
+  
+.homebanner-btn {
+margin-top: 50px;
+display: inline-block;
+}
+
+
+.section1 .min-vh-100 {
+  min-height: 680px !important;
+  
+  }
+  
+.section1{
+  background-color: black;
+}
+
+
+.section2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+  width: 100%;
+  }
+  
+  .section2 h2 {
+  font-weight: 700;
+  }
+  
+  .section2 p {
+  font-weight: 300;
+  max-width: 840px;
+  margin: 0 auto;
+  
+  }
