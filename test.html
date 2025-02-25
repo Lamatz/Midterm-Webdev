@@ -17,6 +17,7 @@
 
 
 	<link rel="stylesheet" href="styles/header-style.css">
+	<link rel="stylesheet" href="styles/section1-style.css">
 	<link rel="stylesheet" href="styles/section7-style.css">
 	<link rel="stylesheet" href="styles/footer-style.css	">
 	<link rel="stylesheet" href="styles/home-style.css">
@@ -1208,6 +1209,22 @@ width: 335px;
 	
 	    	<style>
     	    #replication_details { display: none !important; }
+				/* cart bagde for notification above the cart. Not yet responsive */
+			.cart-badge {
+				position:absolute;
+				top: 20px;
+				background-color: #F6DBA0;
+				color: #007377;
+				border-radius: 50%;  
+				width: 19px; 
+				height: 18px;
+				font-size: 12px;
+				text-align: center;
+				line-height: 18px;  
+				font-weight: bold;
+			}
+			
+		
 	    </style>
     
 
@@ -1248,10 +1265,13 @@ width: 335px;
 				</div>
 
 				<!-- Right Navigation (Desktop) -->
+				 <!--- added notif badge at the cart-->
 				<div class="d-flex align-items-center right-nav">
 
 					<a href="#" id="my-cart" class="flex-shrink-0 pb-2" target="_blank" rel="noopener">
 						<img src="icons/cart.svg" alt="Cart">
+						<span class="cart-badge">0</span>
+						
 					</a>
 	
 					<a href="#" id="my-office" class="flex-shrink-0" target="_blank" rel="noopener">
@@ -1289,15 +1309,16 @@ width: 335px;
 			<video style="z-index:1;object-fit: cover; object-position: 50% 50%;" class="position-absolute w-100 min-vh-100" autoplay="" preload="" muted="" loop="" playsinline="">
 				<!-- adjust object-position to tweak cropping on mobile -->
 				<!--<source src="https://troolife.com/wp-content/uploads/2024/01/mission-banner-video.mp4" type="video/mp4">-->
-				<source src="/wp-content/uploads/2024/04/Istock-1129385915-web-2.mp4" type="video/mp4">
+				<source src="video/vid.mp4" type="video/mp4">
 			</video>
 			<div style="z-index:2" class="align-self-center text-center text-light col-md-8 offset-md-2">
 				<div class="lc-block mb-4">
-					<div>
+					
 						<h1 id="homebanner" style="font-family:Poppins">
 							<img style="margin-top: -8px;"  src="icons/logo2.svg" alt="logo"> is dedicated to enhancing the quality and longevity of lives.
 						</h1>
-
+						
+					
 							<a href="#" class="find-btn homebanner-btn">Find out why <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<rect x="30" width="30" height="30" rx="15" transform="rotate(90 30 0)" fill="#007377"></rect>
 						<g clip-path="url(#clip0_9_1129)">
