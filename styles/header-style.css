@@ -135,6 +135,10 @@ nav{
 }
 
 
+.office-collapse{
+  display: none;
+}
+
 
 
 
@@ -217,7 +221,10 @@ nav{
     padding: 10px; /* Adjust spacing */
 }
 
-  
+  .office-collapse {
+    display: block !important;
+    align-self: center;
+  }
 }
 
 
