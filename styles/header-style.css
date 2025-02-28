@@ -9,9 +9,9 @@
 	Add the cart notification  */
 
 
-  nav{
-    /* height: 72px !important; */
-  }
+nav{
+  background-color: #007377;
+}
 
 #english-icon {
   padding-left: 10px;
@@ -205,6 +205,17 @@
   .hamburger-office{
     display: block !important;
   }
+
+  .right-nav{
+    position: relative !important;
+  }
+
+  .right-nav {
+    position: absolute !important;
+    top: 35px !important;
+    right: 0 !important;
+    padding: 10px; /* Adjust spacing */
+}
 
   
 }

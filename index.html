@@ -675,13 +675,8 @@ width: 100%;
 
 
 
-<body class="home page-template page-template-page-templates page-template-empty page-template-page-templatesempty-php page page-id-14 wp-custom-logo wp-embed-responsive lc-custom-header lc-custom-footer is-using-livecanvas">
-	
-
-
-
-
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top flex-shrink-0" style="background-color: #007377 !important;">
+<body class="home">
+		<nav class="navbar navbar-expand-lg fixed-top">
 			<div class="container-fluid">
 
 				<!-- Mobile Toggle -->
@@ -702,58 +697,43 @@ width: 100%;
 				</a>
 					
 				
-		
-				<!-- Collapsible Content -->
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<!-- Main Navigation -->
-					<ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="main-Nav">
-						<li class="nav-item"><a class="nav-link active" href="">Mission</a></li>
-						<li class="nav-item"><a class="nav-link" href="">Lifeline</a></li>
-						<li class="nav-item"><a class="nav-link" href="">Nutrition</a></li>
-						<li class="nav-item"><a class="nav-link text-truncate" href="">Free By Referral</a></li>
-						<li class="nav-item"><a class="nav-link" href="">Company</a></li>
-						<li class="nav-item"><a class="nav-link text-truncate" href="">Public Relations</a></li>
-
-						<li class="nav-item">
-							<a href="#" id="my-office" class="nav-link hamburger-office" target="_blank" rel="noopener">
-								<img src="icons/person.svg" alt="">
-								My Office
-							</a>
-						</li>
-
-					</ul>
-				</div>
-
-
-					<!-- Right Navigation (Desktop) Always Visible-->
-					<div>
-						<div class="d-flex align-items-center right-nav pe-sm-3 ">
-	
-							<a href="#" id="my-cart" class="pb-md-2" target="_blank" rel="noopener">
-								<div id="cart-badge">
-								<img src="icons/cart.svg" alt="Cart">
-								</div>
-							</a>
-			
-							<a href="#" id="my-office" class="" target="_blank" rel="noopener">
-								<img src="icons/person.svg" alt="">
-								My Office
-							</a>
-	
-							<a href="#" id="my-english" class="" target="_blank" rel="noopener">
-								<img src="icons/globe.svg" alt="">
-								<div class="dropdown me-3 " id="english-icon">
-									<a class="text-white dropdown-toggle text-decoration-none" href="#" role="button" 
-										data-bs-toggle="dropdown" aria-expanded="false">
-										English
-									</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="/">中文</a></li>
-									</ul>
-								</div> 
-							</a>
-						</div>
+		<!-- Right Navigation (Fixed Position on Desktop) -->
+		<div class="d-flex align-items-center right-nav order-lg-last order-0 righ-nav">
+			<a href="#" id="my-cart" class="pb-md-2" target="_blank" rel="noopener">
+					<div id="cart-badge">
+							<img src="icons/cart.svg" alt="Cart">
 					</div>
+			</a>
+
+			<a href="#" id="my-office" class="" target="_blank" rel="noopener">
+					<img src="icons/person.svg" alt="">
+					My Office
+			</a>
+
+			<div class="dropdown me-3" id="english-icon">
+					<a class="text-white dropdown-toggle text-decoration-none" href="#" role="button" 
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="icons/globe.svg" alt=""> English
+					</a>
+					<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="/">中文</a></li>
+					</ul>
+			</div>
+	</div>
+
+				<!-- Main Navigation (Collapsible) -->
+        <div class="collapse navbar-collapse order-5" id="navbarCollapse">
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="main-Nav">
+							<li class="nav-item"><a class="nav-link active" href="">Mission</a></li>
+							<li class="nav-item"><a class="nav-link" href="">Lifeline</a></li>
+							<li class="nav-item"><a class="nav-link" href="">Nutrition</a></li>
+							<li class="nav-item"><a class="nav-link text-truncate" href="">Free By Referral</a></li>
+							<li class="nav-item"><a class="nav-link" href="">Company</a></li>
+							<li class="nav-item"><a class="nav-link text-truncate" href="">Public Relations</a></li>
+					</ul>
+			</div>
+
+			
 
 
 			</div>
