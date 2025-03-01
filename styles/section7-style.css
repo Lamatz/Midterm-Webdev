@@ -66,3 +66,12 @@ the padding and margin */
   color: #fff;
   text-align: center;
   }
+
+  .divider-ochre {
+    background-color: #F6DBA0;
+    height: 2px;
+    width: 92px;
+    display: block;
+    margin: 20px auto;
+    }
+    

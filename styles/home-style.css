@@ -10,7 +10,13 @@ Double check to see if there are any errors */
   border: none;
 }
 
-
+.image-left {
+  border-radius: 0 300px 300px 0;
+  }
+  
+.image-right {
+border-radius: 300px 0 0 300px;
+}
 
 #home-button i{
   background-color: #fff;

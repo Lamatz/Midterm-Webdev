@@ -37,6 +37,13 @@ display: inline-block;
   background-color: black;
 }
 
+.divider-teal {
+  background-color: #007377;
+  height: 2px;
+  width: 92px;
+  display: block;
+  margin: 20px auto;
+  }
 
 .section2 {
   margin-top: 80px;

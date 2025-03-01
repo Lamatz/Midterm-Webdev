@@ -223,7 +223,7 @@ nav{
 
   .office-collapse {
     display: block !important;
-    align-self: center;
+    /* align-self: center; */
   }
 }
 
