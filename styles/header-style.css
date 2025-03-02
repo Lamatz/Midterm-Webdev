@@ -133,6 +133,16 @@ nav{
   display: none;
 }
 
+.white-divider{
+  border-bottom: #fff 1px solid;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
 
 
 
