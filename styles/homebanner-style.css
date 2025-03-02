@@ -20,6 +20,7 @@ display: inline-block;
 .section0{
   background-color: #F6DBA0;
 
+
 }
 
 .profile-name{
@@ -118,4 +119,11 @@ display: inline-block;
 
   @media (max-width: 576px){
 
+  }
+
+
+  @media (min-width: 1346px){
+    .section0{
+      margin-top:55px !important;
+    }
   }
