@@ -4,26 +4,27 @@
 #homebanner {
   font-size: 50px;
   font-weight: 600 !important;
-  }
-  
+  color: #fff;
+}
+
 .homebanner-btn {
-margin-top: 50px;
-display: inline-block;
+  margin-top: 50px;
+  display: inline-block;
 }
 
 
-.profile-section{
+.profile-section {
 
   height: 80px;
 }
 
-.section0{
+.section0 {
   background-color: #F6DBA0;
 
 
 }
 
-.profile-name{
+.profile-name {
   font-family: 'Manrope', sans-serif !important;
   font-weight: bold;
   font-size: 16px;
@@ -32,9 +33,9 @@ display: inline-block;
 
 .section1 .min-vh-100 {
   min-height: 680px !important;
-  }
-  
-.section1{
+}
+
+.section1 {
   background-color: black;
 }
 
@@ -44,86 +45,84 @@ display: inline-block;
   width: 92px;
   display: block;
   margin: 20px auto;
-  }
+}
 
 .section2 {
   margin-top: 80px;
   margin-bottom: 80px;
   text-align: center;
   width: 100%;
-  }
-  
+}
 
-  
-  .section2 p {
+
+
+.section2 p {
   font-weight: 300;
   max-width: 840px;
   margin: 0 auto;
-  
+
+}
+
+#homebanner {
+  max-width: 624px;
+}
+
+#homebanner img {
+  height: 75px;
+  width: 198px;
+}
+
+
+.section1 a {
+  background-color: white;
+  color: #007377;
+  font-weight: bold;
+  font-family: 'Manrope', sans-serif;
+  border: none;
+  white-space: nowrap;
+}
+
+.section1 i {
+  border: 0px black solid;
+  border-radius: 50%;
+  background-color: #007377;
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  #homebanner {
+    font-size: 32px !important;
   }
 
-  #homebanner{
-    max-width: 624px;
+  #homebanner img {
+    height: 48px;
+    width: 127px;
   }
 
-  #homebanner img{
-    height: 75px;
-    width: 198px;
+  .section2 h2 {
+    font-size: 24px;
   }
 
-
-  .section1 a{
-    background-color: white; 
-    color: #007377; 
-    font-weight: bold; 
-    font-family: 'Manrope', sans-serif; 
-    border: none; 
-    white-space: nowrap;
+  .right-nav {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
   }
-  
-  .section1 i{
-    border: 0px black solid; 
-    border-radius: 50%; 
-    background-color: #007377;
-    color:white; 
-    width: 20px; 
-    height: 20px; 
-    font-size: 16px;
+}
+
+@media (max-width: 576px) {}
+
+
+@media (min-width: 1346px) {
+  .section0 {
+    margin-top: 55px !important;
   }
-
-
-
-
-
-  @media  (max-width: 768px) {
-    #homebanner{
-      font-size: 32px !important;
-    }
-
-    #homebanner img{
-      height: 48px;
-      width: 127px;
-    }
-
-    .section2 h2{
-      font-size: 24px;
-    }
-
-    .right-nav {
-      position: absolute;
-      right: 15px; 
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-
-  @media (max-width: 576px){
-
-  }
-
-
-  @media (min-width: 1346px){
-    .section0{
-      margin-top:55px !important;
-    }
-  }
+}

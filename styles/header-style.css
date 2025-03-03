@@ -47,6 +47,11 @@ nav {
   margin-right: 6px;
 }
 
+#english-icon {
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+}
+
 #english-icon img {
   margin-top: -6px;
 }
