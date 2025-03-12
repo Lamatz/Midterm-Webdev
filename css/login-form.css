@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'manrope';
+  src: url(../fonts/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+.border-bottom-yellow {
+  /* border-bottom: 2px solid #F6DBA0;
+  line-height: 1; */
+  text-decoration: underline;
+  text-decoration-color: #F6DBA0;
+  text-decoration-thickness: 2px;
+  /* Adjust thickness */
+  text-underline-offset: 5px;
+  /* Moves it closer */
+}
+
+.information-box,
+.information-box h2,
+.information-box p {
+  /*(0,115, 119)*/
+  background-color: #007377;
+  color: #fff;
+  font-family: 'manrope';
+}
+
+.information-box h2,
+.information-box h1 {
+  font-family: 'poppins';
+}
+
+.information-box h1 {
+  font-size: 60px;
+}
+
+
+.login-button {
+  background-color: #007377;
+  color: #fff;
+}
