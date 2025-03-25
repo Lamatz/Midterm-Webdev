@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 
 
+
+@font-face {
+  font-family: 'manrope';
+  src: url(../fonts/Manrope-Regular.ttf);
+}
 
 
 nav {
@@ -39,7 +43,7 @@ nav {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope';
 }
 
 #my-office img {
@@ -49,7 +53,7 @@ nav {
 
 #english-icon {
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope';
 }
 
 #english-icon img {
@@ -81,7 +85,7 @@ nav {
   color: #fff !important;
   font-size: 16px;
   padding: 0 12px !important;
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'manrope' !important;
 }
 
 .dropdown-toggle::after {
@@ -91,7 +95,7 @@ nav {
 .btn-outline-light {
   border-color: #fff;
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope';
 }
 
 .btn-outline-light:hover {
@@ -128,7 +132,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope';
   z-index: 10;
   transform: translate(110%, -25%)
 }
@@ -310,12 +314,6 @@ nav {
     /* margin-top: 6px; */
   }
 
-  #my-cart {
-    /* margin-left: 20px;
-  margin-right: 20px;
-  padding-right: 20px; */
-  }
-
   #cart-badge::after {
     height: 22px;
     width: 22px;
@@ -364,11 +362,7 @@ nav {
     /* margin-top: 6px; */
   }
 
-  #my-cart {
-    /* margin-left: 20px;
-  margin-right: 15px;
-  padding-right: 20px; */
-  }
+
 
   #cart-badge::after {
     height: 20px;

@@ -1,28 +1,26 @@
+@font-face {
+  font-family: 'manrope';
+  src: url(../fonts/Manrope-Regular.ttf);
+}
 
-/* the sections might look weird xl to lg screens (1200 - 992) because the text
-becomes close to the border but you can adjust that by simple styling of 
-the padding and margin */
-/* I Recommend using Bootstrap 5 utilities i.e. px-xxl-0 px-5 mx-xxl-0 mx-5 (no margin and padding above 1400px screens and by default it has 5rem in both padding and margin) - this will break the text so that it won't be too close to the border*/
 
 
-/* Could also experiment by changing the size of the text at different screens */
-
-.section7 a{
-  background-color: white; 
-  color: #007377; 
-  font-weight: bold; 
-  font-family: 'Manrope', sans-serif; 
-  border: none; 
+.section7 a {
+  background-color: white;
+  color: #007377;
+  font-weight: bold;
+  font-family: 'manrope';
+  border: none;
   white-space: nowrap;
 }
 
-.section7 i{
-  border: 0px black solid; 
-  border-radius: 50%; 
+.section7 i {
+  border: 0px black solid;
+  border-radius: 50%;
   background-color: #007377;
-  color:white; 
-  width: 20px; 
-  height: 20px; 
+  color: white;
+  width: 20px;
+  height: 20px;
   font-size: 16px;
 }
 
@@ -34,14 +32,14 @@ the padding and margin */
 .section7 {
   background-color: #017377;
   padding: 100px 20px;
-  }
-  
-  .section7 .icon-container {
+}
+
+.section7 .icon-container {
   text-align: center;
   padding: 20px;
-  }
-  
-  .section7 .icon-container .inner-container {
+}
+
+.section7 .icon-container .inner-container {
   border: 1px solid #c4c4c4;
   padding: 60px 0px;
   border-radius: 20px;
@@ -49,29 +47,28 @@ the padding and margin */
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  }
-  
-  .section7 .icon-container h3 {
+}
+
+.section7 .icon-container h3 {
   /* max-width: 230px; */
   margin: 40px auto;
   color: #fff;
-  }
-  
-  
-  .section7 .sectionheader {
+}
+
+
+.section7 .sectionheader {
   margin-bottom: 30px;
-  }
-  
-  .section7 .sectionheader h2 {
+}
+
+.section7 .sectionheader h2 {
   color: #fff;
   text-align: center;
-  }
+}
 
-  .divider-ochre {
-    background-color: #F6DBA0;
-    height: 2px;
-    width: 92px;
-    display: block;
-    margin: 20px auto;
-    }
-    
+.divider-ochre {
+  background-color: #F6DBA0;
+  height: 2px;
+  width: 92px;
+  display: block;
+  margin: 20px auto;
+}

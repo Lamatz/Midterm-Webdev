@@ -3,38 +3,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
+@font-face {
+  font-family: 'manrope';
+  src: url(../fonts/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
 
 /* GENERAL STYLE */
 body,
 html {
   overflow-x: hidden;
-
 }
 
 
 h1 {
   font-size: 60px;
-
-  font-family: "Poppins", sans-serif;
+  font-family: 'poppins';
 }
 
 h2 {
   font-size: 48px;
-
-  font-family: "Poppins", sans-serif;
+  font-family: 'poppins';
   color: #000000;
 }
 
 h3 {
   font-size: 30px;
-
-  font-family: "Poppins", sans-serif;
+  font-family: 'poppins';
   color: #000000;
 }
 
 h4 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'poppins';
   font-weight: 300;
 }
 
@@ -42,7 +48,7 @@ ol li,
 ul li,
 p {
   font-size: 18px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope';
   color: #000000;
   line-height: 2em;
 }
@@ -55,7 +61,7 @@ a {
 
 .btn {
   border-radius: 50px !important;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope';
 }
 
 .teal {
@@ -65,7 +71,7 @@ a {
 
 
 .manrope {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'manrope';
 }
 
 
