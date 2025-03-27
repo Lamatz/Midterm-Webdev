@@ -12,7 +12,7 @@
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-		</script>
+	</script>
 	<link rel='stylesheet'
 		href='https://www.troolife.com/wp-content/themes/picostrap5-child-base/css-output/bundle.css?ver=956' media='all'>
 	<link rel='stylesheet' href='styles/bundle.css' media='all'>
@@ -32,73 +32,7 @@
 
 
 <body class="">
-	<nav class="navbar navbar-expand-lg fixed-top">
-		<div class="container-fluid">
-
-			<!-- Mobile Toggle -->
-			<button class="navbar-toggler border-0  me-0" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarCollapse">
-				<svg width="32" height="32" viewBox="0 0 21 17" fill="none">
-					<path d="M0 3V0H21V3H0Z" fill="#C4C4C4" />
-					<path d="M0 10V7H21V10H0Z" fill="#C4C4C4" />
-					<path d="M0 17V14H21V17H0Z" fill="#C4C4C4" />
-				</svg>
-			</button>
-
-
-
-			<!-- Brand/Logo -->
-			<a class="navbar-brand me-auto" href="#">
-				<img src="images/icons/logo.svg" alt="Brand Logo" width="158" height="46">
-			</a>
-
-
-			<!-- Right Navigation (Fixed Position on Desktop) -->
-			<div class="d-flex align-items-center right-nav order-lg-last order-0 righ-nav">
-				<a href="#" id="my-cart" class="pb-md-2" target="_blank" rel="noopener">
-					<div id="cart-badge">
-						<img src="images/icons/cart.svg" alt="Cart">
-					</div>
-				</a>
-
-				<a href="#" id="my-office" class="" target="_blank" rel="noopener">
-					<img src="images/icons/person.svg" alt="">
-					My Office
-				</a>
-
-				<div class="dropdown me-3" id="english-icon">
-					<a class="text-white dropdown-toggle text-decoration-none" href="#" role="button" data-bs-toggle="dropdown"
-						aria-expanded="false">
-						<img src="images/icons/globe.svg" alt=""> English
-					</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">中文</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<!-- Main Navigation (Collapsible) -->
-			<div class="collapse navbar-collapse order-5" id="navbarCollapse">
-				<ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="main-Nav">
-					<li class="nav-item"><a class="nav-link active" href="#"><span class="white-divider pb-1">Mission</span></a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="#">Lifeline</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Nutrition</a></li>
-					<li class="nav-item"><a class="nav-link text-truncate" href="#">Free By Referral</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Company</a></li>
-					<li class="nav-item"><a class="nav-link text-truncate" href="#">Public Relations</a></li>
-					<li class="nav-item"></li><a href="#" id="my-office" class="office-collapse text-center m-auto"
-						target="_blank" rel="noopener">
-						My Office
-					</a></li>
-				</ul>
-			</div>
-
-
-
-
-		</div>
-	</nav>
+	<?php include 'header.php'; ?>
 
 
 	<!--- Profile section- -->
@@ -335,79 +269,7 @@
 
 
 
-	<footer id='lc-footer'>
-		<div id="footer-section">
-			<div class="container footer-container">
-				<div class="row">
-					<div class="col-md-12 col-lg-6">
-						<div class="lc-block">
-							<img src="images/img5.png" id="footer-logo">
-						</div>
-					</div>
-					<div class="col-md-12 col-lg-6 ">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="lc-block">
-									<ul class="footer-links">
-										<li> <a href="#">Mission</a> </li>
-										<li> <a href="#">Lifeline</a> </li>
-										<li> <a href="#">Nutrition</a> </li>
-										<li> <a href="#">Free by Referral</a> </li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="lc-block">
-									<ul class="footer-links">
-										<li> <a href="#">Public Relations</a> </li>
-										<li> <a href="#">Company</a> </li>
-										<li> <a href="#">Management</a> </li>
-										<li> <a href="#">Contact Us</a> </li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="lc-block">
-									<ul class="footer-links">
-										<li> <a href="#">Let's Connect</a> </li>
-										<li class="d-flex"> <img src="images/icons/weibo.svg" alt="weibo" class="me-2"> <a href="#"
-												style="font-weight: normal;">Weibo</a> </li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="footer-socket" class="border-top py-1">
-			<div class="container">
-				<div class="row flex-md-row flex-column-reverse flex-sm-row-reverse">
-					<div class="col-md-6 col-lg-6 mb-3 mb-md-0">
-						<div class="lc-block text-center">
-							<p class="mb-0 fs-5 text-teal">
-								© 2025 TrooLife, LLC Irvine, California, USA
-							</p>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-6">
-						<div class="lc-block d-flex justify-content-center align-items-center ">
-							<ul class="list-unstyled d-flex flex-md-row flex-column justify-content-md-end mb-0 gap-md-5">
-								<li class="text-center">
-									<a href="#" class="text-dark text-decoration-none fw-semibold hover-text-teal">Privacy Policy</a>
-								</li>
-								<li class="text-center">
-									<a href="#" class="text-dark text-decoration-none fw-semibold hover-text-teal">Terms of Service</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</footer>
+	<?php include 'footer.php'; ?>
 
 </body>
 
