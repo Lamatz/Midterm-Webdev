@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'manrope';
+  src: url(../../fonts/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url(../../fonts/Poppins-Regular.ttf);
+}
+
+
+element {}
+
+.section-padding-top {
+  padding-top: 50px;
+}
+
+.section,
+.section-fluid {
+  float: left;
+  width: 100%;
+}
+
+.section1-title {
+  text-align: center !important;
+  font-family: 'poppins';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: #007377;
+}
+
+.divider-2 {
+  background-color: #F6DBA0;
+  height: 2px;
+  width: 92px;
+  border: 2px;
+  display: block;
+}
+
+
+.section1-content p {
+  text-align: left;
+}
+
+.section1-left {
+  background-color: #007377;
+  border-radius: 20px;
+}
+
+.title-brand {
+  /* background-color: #007377; */
+}
+
+.title-brand h1 {
+  color: white;
+  font-size: 108px;
+}
+
+.title-brand h1 span {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 8px;
+  text-underline-offset: 15px;
+}
+
+.test-background {
+  /* background-color: black; */
+  height: 500px;
+}
