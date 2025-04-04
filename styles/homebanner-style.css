@@ -27,23 +27,6 @@
 }
 
 
-.profile-section {
-
-  height: 80px;
-}
-
-.section0 {
-  background-color: #F6DBA0;
-
-
-}
-
-.profile-name {
-  font-family: 'manrope';
-  font-weight: bold;
-  font-size: 16px;
-}
-
 
 .section1 .min-vh-100 {
   min-height: 680px !important;

@@ -1,10 +1,24 @@
-
-
-
 @font-face {
   font-family: 'manrope';
   src: url(../fonts/Manrope-Regular.ttf);
 }
+
+
+/* PROFILE SECTION */
+.profile-section {
+  height: 80px;
+}
+
+.section0 {
+  background-color: #F6DBA0 !important;
+}
+
+.profile-name {
+  font-family: 'manrope';
+  font-weight: bold;
+  font-size: 16px;
+}
+
 
 
 nav {

@@ -13,10 +13,14 @@
   padding-top: 50px;
 }
 
-.section,
+.section-about,
 .section-fluid {
   float: left;
   width: 100%;
+}
+
+.section-about {
+  background-color: #fff !important;
 }
 
 .section1-title {

@@ -65,3 +65,21 @@
 
   </div>
 </nav>
+
+
+
+<!--- Profile section- -->
+
+<section class="section0 mt-5 pt-4 px-sm-5 px-3">
+  <div class="profile-section d-flex justify-content-between align-items-center px-sm-3 mt-lg-4">
+    <div class="d-flex align-items-center">
+      <img src="images/Ellipse.png" alt="Amanda Jones" class="profile-img">
+      <span class="profile-name manrope ps-3">Amanda Jones</span>
+    </div>
+
+    <div class="d-flex align-items-center gap-4">
+      <a href="#"><img src="images/phone2.png" alt="phone" width="25"></a>
+      <a href="#"><img src="images/phone.png" alt="message" width="21"></a>
+    </div>
+  </div>
+</section>
