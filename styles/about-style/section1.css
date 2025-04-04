@@ -9,8 +9,6 @@
 }
 
 
-element {}
-
 .section-padding-top {
   padding-top: 50px;
 }
@@ -49,9 +47,6 @@ element {}
   border-radius: 20px;
 }
 
-.title-brand {
-  /* background-color: #007377; */
-}
 
 .title-brand h1 {
   color: white;
@@ -68,4 +63,7 @@ element {}
 .test-background {
   /* background-color: black; */
   height: 500px;
+
+
+  margin-bottom: 100px;
 }

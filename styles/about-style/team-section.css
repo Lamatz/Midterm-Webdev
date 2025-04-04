@@ -1,9 +1,20 @@
 /*====================  
     4.9 Team CSS
 ====================*/
+
+
 .team-section-padding {
-  margin-bottom: 200px;
+  margin: 50px 0 200px 0;
 }
+
+
+.team-block .inner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 .team-block .inner-box .image {
   position: relative;
@@ -11,14 +22,22 @@
   overflow: hidden;
 }
 
+
+
 .team-block .inner-box .image img {
   position: relative;
   width: 100%;
   display: block;
-  -webkit-transition: all 600ms ease;
-  -o-transition: all 600ms ease;
-  transition: all 600ms ease;
+
+  /* width: 100px; */
+
+  border-radius: round;
+
 }
+
+
+
+
 
 .team-block .inner-box .image .social-icons {
   position: absolute;
@@ -51,7 +70,7 @@
 }
 
 .team-block .inner-box .image .social-icons li a:hover {
-  color: #739900;
+  color: #007377;
 }
 
 .team-block .inner-box:hover .image img {
@@ -68,7 +87,7 @@
 }
 
 .team-block .inner-box:hover .team-content .title a {
-  color: #739900;
+  color: #007377;
 }
 
 .team-block .inner-box .team-content {

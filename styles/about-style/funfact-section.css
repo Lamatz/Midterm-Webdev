@@ -62,7 +62,7 @@ only screen and (max-width: 767px) {
   }
 }
 
-.single-funfact .odometer {
+.single-funfact .h1 {
   font-size: 50px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -71,7 +71,7 @@ only screen and (max-width: 767px) {
 }
 
 @media only screen and (max-width: 767px) {
-  .single-funfact .odometer {
+  .single-funfact .h1 {
     font-size: 40px;
   }
 }
@@ -198,13 +198,10 @@ only screen and (max-width: 767px) {
   transform: translateY(0)
 }
 
-.odometer.odometer-auto-theme,
-.odometer.odometer-theme-default {
-  font-family: "Helvetica Neue", sans-serif;
-  line-height: 1.1em
-}
 
-.odometer.odometer-auto-theme .odometer-value,
-.odometer.odometer-theme-default .odometer-value {
-  text-align: center
+
+
+.single-funfact h1 {
+  line-height: 1.1em;
+  text-align: center;
 }
