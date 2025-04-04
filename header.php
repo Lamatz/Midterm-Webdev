@@ -73,8 +73,10 @@
 <section class="section0 mt-5 pt-4 px-sm-5 px-3">
   <div class="profile-section d-flex justify-content-between align-items-center px-sm-3 mt-lg-4">
     <div class="d-flex align-items-center">
-      <img src="images/Ellipse.png" alt="Amanda Jones" class="profile-img">
-      <span class="profile-name manrope ps-3">Amanda Jones</span>
+      <img src="images/Ellipse.png" alt="Profile Name" class="profile-img">
+      <span class="profile-name manrope ps-3"><?php echo $_SESSION['name'] ?? 'N/A'; ?></span>
+
+
     </div>
 
     <div class="d-flex align-items-center gap-4">

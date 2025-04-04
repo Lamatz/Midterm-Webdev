@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!doctype html>
 <html lang="en-US">
 
@@ -13,6 +19,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 	</script>
+
+
 	<link rel='stylesheet'
 		href='https://www.troolife.com/wp-content/themes/picostrap5-child-base/css-output/bundle.css?ver=956' media='all'>
 	<link rel='stylesheet' href='styles/bundle.css' media='all'>
