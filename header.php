@@ -51,12 +51,12 @@
     <!-- Main Navigation (Collapsible) -->
     <div class="collapse navbar-collapse order-5" id="navbarCollapse">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="main-Nav">
-        <li class="nav-item"><a class="nav-link active" href="#"><span class="white-divider pb-1">Mission</span></a>
+        <li class="nav-item"><a class="nav-link active" href="index.php"><span class="white-divider pb-1">Mission</span></a>
         </li>
         <li class="nav-item"><a class="nav-link" href="#">Lifeline</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Nutrition</a></li>
         <li class="nav-item"><a class="nav-link text-truncate" href="#">Free By Referral</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Company</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.php" style="color: #F6DBA0 !important;" id="about-link">About Us</a></li>
         <li class="nav-item"><a class="nav-link text-truncate" href="#">Public Relations</a></li>
         <li class="nav-item"></li><a href="#" id="my-office" class="office-collapse text-center m-auto"
           target="_blank" rel="noopener">
