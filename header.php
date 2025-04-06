@@ -32,15 +32,20 @@
         My Office
       </a>
 
-      <div class="dropdown me-3" id="english-icon">
-        <a class="text-white dropdown-toggle text-decoration-none" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          <img src="images/icons/globe.svg" alt=""> English
+
+
+      <?php if (isset($_SESSION['user_email'])): ?>
+        <a href="assets/php/logout.php" id="my-office">
+          <i class="bi bi-escape logout-icon"></i>
+          Sign Out
         </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">中文</a></li>
-        </ul>
-      </div>
+      <?php else: ?>
+        <a href="login-form.php" id="my-office">
+          <i class="bi bi-box-arrow-in-right"></i>
+          Sign In
+        </a>
+      <?php endif; ?>
+
     </div>
 
     <!-- Main Navigation (Collapsible) -->

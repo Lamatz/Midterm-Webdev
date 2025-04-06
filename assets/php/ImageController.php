@@ -58,7 +58,7 @@ class ImageController
 
     private function validateFileSize(): bool
     {
-        if ($this->file_size >= 1000000) { //maximum 2 mb
+        if ($this->file_size >= 1000000) { //maximum 1 mb
             $this->errors['file_size'] = "Sorry, file is too large";
         }
         return empty($this->errors);
