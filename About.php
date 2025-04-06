@@ -53,7 +53,7 @@ session_start();
 <body class="">
 
 
-  <?php include 'header.php'; ?>
+  <?php require 'header.php'; ?>
 
 
 
@@ -379,7 +379,7 @@ session_start();
 
 
 
-  <?php include 'footer.php'; ?>
+  <?php require 'footer.php'; ?>
 
 </body>
 

@@ -54,7 +54,7 @@ session_start();
 <body>
 
 
-  <?php include 'header.php'; ?>
+  <?php require 'header.php'; ?>
 
 
 
@@ -183,7 +183,7 @@ session_start();
   <!-- ACCOUNT DETAILS END-->
 
 
-  <?php include 'footer.php'; ?>
+  <?php require 'footer.php'; ?>
   <button id="backBtn" class="back-to-top"><i class="icofont-simple-up"></i></button>
   <!--Back To End-->
 
