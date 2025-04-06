@@ -35,12 +35,12 @@
 
 
       <?php if (isset($_SESSION['user_email'])): ?>
-        <a href="assets/php/logout.php" id="my-office">
+        <a href="assets/php/logout.php" id="english-icon">
           <i class="bi bi-escape logout-icon"></i>
           Sign Out
         </a>
       <?php else: ?>
-        <a href="login-form.php" id="my-office">
+        <a href="login-form.php" id="english-icon">
           <i class="bi bi-box-arrow-in-right"></i>
           Sign In
         </a>

@@ -58,7 +58,7 @@ nav {
 }
 
 #my-office {
-  margin-right: 30px;
+  margin-right: 20px;
   text-decoration: none;
   color: #fff;
   font-size: 16px;
@@ -70,17 +70,24 @@ nav {
   margin-right: 6px;
 }
 
-#my-office i {
+#english-icon i {
   color: #F6DBA0;
+  font-size: 24px;
 }
 
 #english-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   font-family: 'manrope';
+  margin-right: 5px;
 }
 
-#english-icon img {
+#english-icon i {
   margin-top: -6px;
+  padding-right: 10px;
 }
 
 
